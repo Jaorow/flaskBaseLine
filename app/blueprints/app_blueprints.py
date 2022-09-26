@@ -14,3 +14,7 @@ app_blueprint = Blueprint('app_blueprint', __name__)
 @app_blueprint.route('/')
 def root():
     return render_template("home.html")
+
+@app_blueprint.route('/')
+def pg2():
+    return render_template("home.html")
